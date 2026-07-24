@@ -8,7 +8,7 @@ df = pd.read_csv("sales_data.csv")
 
 button = st.button("↩ Previous Page")
 if button:
-    st.switch_page("pages/region_vs_category.py")
+    st.switch_page("pages/category_vs_sales.py")
 
 st.markdown("<hr style='border:1px solid #eee; margin:20px 0;'>", unsafe_allow_html=True)
 

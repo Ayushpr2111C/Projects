@@ -60,6 +60,6 @@ st.markdown("<hr style='border:1px solid #eee; margin:20px 0;'>", unsafe_allow_h
 col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
 with col7:
     if st.button("Next page ↪", key="header_time_sales"):
-        st.switch_page("pages/state_vs_sales.py")
+        st.switch_page("pages/age_vs_category.py")
         
 st.markdown("<h3 style='text-align: center; color: white;'>Created by Ayush Pratap</h3>", unsafe_allow_html=True)
