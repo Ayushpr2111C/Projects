@@ -21,7 +21,7 @@ def Header():
             st.switch_page("pages/category_vs_sales.py")
 
     with col5:
-        if st.button("Ship V/s Category", key="header_age_category"):
+        if st.button("Shipcd V/s Category", key="header_age_category"):
             st.switch_page("pages/age_vs_category.py")
 
     with col6:
